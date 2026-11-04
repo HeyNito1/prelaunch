@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Slow rotation for the blue ring around the logo (used as `animate-orbit`). */
+  --animate-orbit: orbit 12s linear infinite;
+
+  /* Use as `font-flex`. Loaded from Google Fonts in index.html. */
+  --font-flex: "Google Sans Flex", system-ui, sans-serif;
+
+  @keyframes orbit {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+/* Keeps the area behind/around the page black (e.g. when mobile browsers overscroll). */
+body {
+  background-color: #000;
+}
