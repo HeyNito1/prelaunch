@@ -9,7 +9,7 @@ export default function Navbar() {
         className="w-[86px] md:w-[143px]"
       />
 
-      <p className="font-flex shrink-0 whitespace-nowrap text-right text-[10px] leading-[12px] text-white [font-stretch:125%] md:h-[30px] md:w-[183px] md:text-[12px] md:leading-normal">
+      <p className="font-flex shrink-0 whitespace-nowrap text-right text-[10px] leading-[12px] text-white [font-stretch:125%] md:w-[183px] md:text-[12px] md:leading-[16px]">
         Neural Intelligence &amp;
         <br />
         Trans-human Omniscience

@@ -80,7 +80,7 @@ export default function EmailInput({ onSubmit }) {
       <p
         role="status"
         className={`absolute left-0 right-0 top-full mt-1 text-center text-[12px] ${
-          status === "error" ? "text-red-300" : "text-[#FFFFFF]"
+          status === "error" ? "text-[#E05A64]" : "text-white"
         }`}
       >
         {message}
