@@ -20,8 +20,8 @@ export default function Hero() {
       <Navbar />
 
       {/* Countdown card positioning */}
-      <div className="relative z-10 flex w-full flex-1 justify-center px-[22px] pb-6 pt-[calc(30dvh-55px)] md:items-center md:px-8 md:pt-6">
-        <section className="h-fit w-full max-w-[291px] rounded-[18px] border-[0.73px] border-black bg-white/10 px-[14px] pb-[16px] pt-[8px] shadow-[inset_0_1px_0_rgba(255,255,255,0.22),inset_0_0_0_1px_rgba(255,255,255,0.07)] backdrop-blur-[14px] backdrop-saturate-150 md:backdrop-brightness-[0.45] md:h-[300px] md:max-w-[400px] md:scale-[max(0.72,min(1,tan(atan2(100vw,1920px))))] md:rounded-[20px] md:px-[20px] md:pb-[20px] md:pt-[17px]">
+      <div className="relative z-10 flex w-full flex-1 justify-center px-[22px] pb-6 pt-[calc(30dvh-55px)] md:absolute md:inset-x-0 md:top-0 md:h-full md:items-center md:px-8 md:pt-6">
+        <section className="md:absolute md:top-[165px] h-fit w-full max-w-[291px] rounded-[18px] border-[0.73px] border-black bg-white/4 px-[14px] pb-[16px] pt-[8px] shadow-[inset_0_1px_0_rgba(255,255,255,0.22),inset_0_0_0_1px_rgba(255,255,255,0.07)] backdrop-blur-[14px] backdrop-saturate-150 md:backdrop-brightness-[0.45] md:h-[330px] md:max-w-[450px] md:scale-[max(0.72,min(1,tan(atan2(100vw,1920px))))] md:rounded-[20px] md:px-[20px] md:pb-[20px] md:pt-[17px]">
 
           <div className="flex flex-col items-center text-center">
             <LogoRing />
