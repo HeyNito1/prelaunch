@@ -1,10 +1,10 @@
-// Calls Vercel serverless function on same domain — no cold starts, always fast
+const API_URL = "https://heynito-prelaunch-backend.onrender.com"
 
 export async function subscribeEmail(email) {
   let response
 
   try {
-    response = await fetch(`/api/subscribe`, {
+    response = await fetch(`${API_URL}/api/subscribe`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email }),
