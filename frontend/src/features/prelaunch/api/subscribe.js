@@ -3,7 +3,7 @@
 // - In development, "/api/..." is forwarded to http://localhost:5000 by the proxy in vite.config.js.
 // - In production, set VITE_API_URL (for example VITE_API_URL=https://api.yoursite.com)
 //   in a `.env.production` file BEFORE running `npm run build`.
-const API_URL = import.meta.env.VITE_API_URL ?? "";
+const API_URL = import.meta.env.VITE_API_URL || "https://heynito-prelaunch-backend.onrender.com";
 
 // Ping the backend on page load to wake it up (Render free tier sleeps after inactivity)
 if (API_URL) {
